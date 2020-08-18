@@ -17,6 +17,10 @@ public class firstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+     //   View txtBx1 = findViewById(R.id.txtBx1);
+     //   View txtBx2 = findViewById(R.id.txtBx2);
+     //   View btn1 = findViewById(R.id.btn1);
+
         Button btn = (Button)findViewById(R.id.btn1);
 
         btn.setOnClickListener(new View.OnClickListener() {
@@ -24,6 +28,7 @@ public class firstActivity extends AppCompatActivity {
             public void onClick(View view) {
                 startActivity(new Intent(firstActivity.this, secondActivity.class));
                 Context context = getApplicationContext();
+
                 CharSequence message = "You just clicked the OK button";
                 int duration = Toast.LENGTH_SHORT;
                 Toast toast = Toast.makeText(context, message, duration);
