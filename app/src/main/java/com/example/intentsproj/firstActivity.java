@@ -21,7 +21,7 @@ public class firstActivity extends AppCompatActivity {
      //   View txtBx2 = findViewById(R.id.txtBx2);
      //   View btn1 = findViewById(R.id.btn1);
 
-        Button btn = (Button)findViewById(R.id.btn1);
+        Button btn = (Button)findViewById(R.id.btn1);34
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
